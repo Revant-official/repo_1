@@ -215,30 +215,42 @@
             </ul>
           </div>
           <form class="reserve-form" action="#" method="post">
-            <label>
+            <label for="reserve-name">
               Full Name
-              <input type="text" name="name" placeholder="Alex Morgan" required />
+              <input
+                id="reserve-name"
+                type="text"
+                name="name"
+                placeholder="Alex Morgan"
+                required
+              />
             </label>
-            <label>
+            <label for="reserve-phone">
               Phone Number
-              <input type="tel" name="phone" placeholder="(555) 010-4020" required />
+              <input
+                id="reserve-phone"
+                type="tel"
+                name="phone"
+                placeholder="(555) 010-4020"
+                required
+              />
             </label>
-            <label>
+            <label for="reserve-date">
               Date
-              <input type="date" name="date" required />
+              <input id="reserve-date" type="date" name="date" required />
             </label>
-            <label>
+            <label for="reserve-time">
               Time
-              <input type="time" name="time" required />
+              <input id="reserve-time" type="time" name="time" required />
             </label>
-            <label>
+            <label for="reserve-guests">
               Guests
-              <select name="guests" required>
+              <select id="reserve-guests" name="guests" required>
                 <option value="">Select</option>
-                <option>2 Guests</option>
-                <option>4 Guests</option>
-                <option>6 Guests</option>
-                <option>8+ Guests</option>
+                <option value="2">2 Guests</option>
+                <option value="4">4 Guests</option>
+                <option value="6">6 Guests</option>
+                <option value="8+">8+ Guests</option>
               </select>
             </label>
             <button type="submit" class="button">Confirm Reservation</button>
