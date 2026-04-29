@@ -7,6 +7,7 @@
   --bg: #ffffff;
   --surface: #f7f1eb;
   --accent: #f4e1cf;
+  --nav-height: 72px;
 }
 
 *,
@@ -339,7 +340,7 @@ blockquote {
 @media (max-width: 900px) {
   .nav-links {
     position: absolute;
-    top: 72px;
+    top: var(--nav-height);
     right: 6vw;
     flex-direction: column;
     background: rgba(0, 0, 0, 0.85);
