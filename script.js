@@ -22,7 +22,7 @@ if (reserveForm) {
     event.preventDefault();
     if (formSuccess) {
       formSuccess.textContent =
-        "Thanks! Your request is received and a host will confirm shortly.";
+        "Thanks! Your request has been received, and a host will confirm shortly.";
     }
     reserveForm.reset();
   });
