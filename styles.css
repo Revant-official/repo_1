@@ -320,6 +320,13 @@ blockquote {
   color: var(--muted);
 }
 
+.form-success {
+  margin: 0;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--primary-dark);
+}
+
 .footer {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
