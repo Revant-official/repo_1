@@ -21,11 +21,11 @@ document.addEventListener("DOMContentLoaded", () => {
   if (reserveForm) {
     reserveForm.addEventListener("submit", (event) => {
       event.preventDefault();
+      reserveForm.reset();
       if (formSuccess) {
         formSuccess.textContent =
           "Thanks! Your request has been received, and a host will confirm shortly.";
       }
-      reserveForm.reset();
     });
   }
 });
